@@ -1,0 +1,160 @@
+
+__     ______   ____ ____   ___  _____  __        _____ _   _ 
+\ \   / / ___| / ___|  _ \ / _ \| ____| \ \      / /_ _| \ | |
+ \ \ / /\___ \| |   | | | | | | |  _|    \ \ /\ / / | ||  \| |
+  \ V /  ___) | |___| |_| | |_| | |___    \ V  V /  | || |\  |
+   \_/  |____/ \____|____/ \___/|_____|    \_/\_/  |___|_| \_|
+                                                              
+    _  _____  _       _  ___  ____  
+   / \|_   _|/ \     | |/ _ \/ ___| 
+  / _ \ | | / _ \ _  | | | | \___ \ 
+ / ___ \| |/ ___ \ |_| | |_| |___) |
+/_/   \_\_/_/   \_\___/ \___/|____/ 
+                                    
+
+GENERAL 
+Ctrl+Shift+P , F1   — Mostrar paleta de comandos
+Ctrl+P              — Apertura rápida, ir al archivo…
+Ctrl+Shift+N        — Nueva ventana / instancia
+Ctrl+Shift+W        — Cerrar ventana / instancia
+Ctrl+,              — Configuración de usuario
+Ctrl+K Ctrl+S       — Atajos de teclado (es secuencial)
+
+Basic Editing 
+Ctrl+X              — Cortar línea (con selección vacía)  
+Ctrl+C              — Copiar línea (con selección vacía)  
+Alt+ ↑ / ↓          — Mover línea hacia arriba / abajo  
+Shift+Alt+ ↓ / ↑    — Duplicar línea hacia abajo / arriba  
+Ctrl+Shift+K        — Eliminar línea  
+Ctrl+Enter          — Insertar línea debajo  
+Ctrl+Shift+Enter    — Insertar línea arriba  
+Ctrl+Shift+\        — Saltar al corchete/paréntesis correspondiente  
+Ctrl+] / [          — Indentar / anular indentación de línea (Aumentar/reducir sangría)
+Home / End          — Ir al inicio / fin de la línea
+Ctrl+Home           — Ir al inicio del archivo
+Ctrl+End            — Ir al final del archivo
+Ctrl+↑ / ↓          — Desplazar línea hacia arriba / abajo (Hacer scroll sin mover el cursor)
+Alt+PgUp / PgDn     — Desplazar página hacia arriba / abajo (Scroll de página)
+Ctrl+Shift+[        — Plegar (colapsar) región de código
+Ctrl+Shift+]        — Desplegar (expandir) región de código
+Ctrl+K Ctrl+[       — Plegar (colapsar) todas las subregiones
+Ctrl+K Ctrl+]       — Desplegar (expandir) todas las subregiones
+Ctrl+K Ctrl+0       — Plegar (colapsar) todas las regiones
+Ctrl+K Ctrl+J       — Desplegar (expandir) todas las regiones
+Ctrl+K Ctrl+C       — Añadir comentario de línea
+Ctrl+K Ctrl+U       — Quitar comentario de línea
+Ctrl+/              — Alternar comentario de línea (Comentar/descomentar)
+Shift+Alt+A         — Alternar comentario de bloque
+Alt+Z               — Alternar ajuste de línea automático (Word Wrap)
+
+NAVEGACION
+
+Ctrl+T              — Mostrar todos los símbolos
+Ctrl+G              — Ir a la línea...
+Ctrl+P              — Ir al archivo...  
+Ctrl+Shift+O        — Ir al símbolo...
+Ctrl+Shift+M        — Mostrar el panel de Problemas  
+F8                  — Ir al siguiente error o advertencia
+Shift+F8            — Ir al anterior error o advertencia
+Ctrl+Shift+Tab      — Navegar por el historial del grupo de editores
+Alt+ ← / →          — Ir hacia atrás / adelante (Navegar por el historial de ubicación del cursor)
+Ctrl+M              — Alternar si la tecla Tabulador mueve el foco (Permite usar Tab para salir de un campo de texto en lugar de insertar espacios)
+
+BUSCAR Y REEMPLAZAR  (Search and replace)
+
+Ctrl+F              — Buscar (en el archivo actual)
+Ctrl+H              — Reemplazar (en el archivo actual)
+F3 / Shift+F3       — Buscar siguiente / anterior
+Alt+Enter           — Seleccionar todas las coincidencias de la búsqueda
+Ctrl+D              — Añadir selección a la siguiente coincidencia encontrada
+Ctrl+K Ctrl+D       — Mover la última selección a la siguiente coincidencia encontrada
+Alt+C / R / W       — Alternar sensible a mayúsculas/minúsculas / expresiones regulares / palabra completa
+
+Multi-cursor y Selección (Multi-cursor and selection)
+Alt+Click                     — Insertar cursor
+Ctrl+Alt+ ↑ / ↓               — Insertar cursor arriba / abajo
+Ctrl+U                        — Deshacer última operación del cursor
+Shift+Alt+I                   — Insertar cursor al final de cada línea seleccionada
+Ctrl+L                        — Seleccionar línea actual
+Ctrl+Shift+L                  — Seleccionar todas las ocurrencias de la selección actual
+Ctrl+F2                       — Seleccionar todas las ocurrencias de la palabra actual
+Shift+Alt+ →                  — Ampliar selección
+Shift+Alt+ ←                  — Reducir selección
+Shift+Alt + arrastrar ratón   — Selección de columna (en caja)
+Ctrl+Shift+Alt + flechas      — Selección de columna (en caja) con el teclado
+Ctrl+Shift+Alt + PgUp/PgDn    — Selección de columna de página arriba / abajo
+
+Edición de Lenguajes Ricos (Rich languages editing)
+Ctrl+Space , Ctrl+I         — Activar sugerencia (IntelliSense)
+Ctrl+Shift+Space            — Activar pistas de parámetros
+Shift+Alt+F                 — Formatear documento
+Ctrl+K Ctrl+F               — Formatear selección
+F12                         — Ir a la definición
+Alt+F12                     — Ver definición (Vista previa)
+Ctrl+K F12                  — Abrir definición al lado
+Ctrl+.                      — Acción rápida / Corrección rápida
+Shift+F12                   — Mostrar referencias
+F2                          — Renombrar símbolo
+Ctrl+K Ctrl+X               — Recortar espacios en blanco al final de las líneas
+Ctrl+K M                    — Cambiar el lenguaje del archivo
+
+Gestión de Archivos (File management)
+Ctrl+N                      — Nuevo archivo
+Ctrl+O                      — Abrir archivo...
+Ctrl+S                      — Guardar
+Ctrl+Shift+S                — Guardar como...
+Ctrl+K S                    — Guardar todo
+Ctrl+F4                     — Cerrar archivo actual
+Ctrl+K Ctrl+W               — Cerrar todo
+Ctrl+Shift+T                — Volver a abrir editor cerrado
+Ctrl+K Enter                — Mantener abierto el editor en modo vista previa
+Ctrl+Tab                    — Abrir el siguiente
+Ctrl+Shift+Tab              — Abrir el anterior
+Ctrl+K P                    — Copiar la ruta del archivo activo
+Ctrl+K R                    — Revelar el archivo activo en el Explorador de Windows
+Ctrl+K O                    — Mostrar el archivo activo en una nueva ventana / instancia
+
+Pantalla / Vista (Display)
+F11                         — Alternar pantalla completa
+Shift+Alt+0                 — Alternar la disposición del editor (Horizontal / Vertical)
+Ctrl+ = / -                 — Zoom acercar / alejar
+Ctrl+B                      — Alternar la visibilidad de la barra lateral
+Ctrl+Shift+E                — Mostrar Explorador / Alternar enfoque
+Ctrl+Shift+F                — Mostrar Buscar
+Ctrl+Shift+G                — Mostrar Control de código fuente (Git)
+Ctrl+Shift+D                — Mostrar Ejecución y Depuración
+Ctrl+Shift+X                — Mostrar Extensiones
+Ctrl+Shift+H                — Reemplazar en archivos (Global)
+Ctrl+Shift+J                — Alternar detalles de la búsqueda
+Alt+PgUp / PgDn             — Desplazar página hacia arriba / abajo (Scroll)
+Ctrl+Shift+U                — Mostrar panel de Salida (Output)
+Ctrl+Shift+V                — Abrir vista previa de Markdown
+Ctrl+K V                    — Abrir vista previa de Markdown al lado
+Ctrl+K Z                    — Modo Zen (Presiona Esc Esc para salir)
+
+Gestión del Editor (Editor management)
+Ctrl+F4 , Ctrl+W            — Cerrar editor
+Ctrl+K F                    — Cerrar carpeta
+Ctrl+\                      — Dividir editor (Split View)
+Ctrl+1 / 2 / 3              — Enfocar en el 1º, 2º o 3º grupo de editores
+Ctrl+K Ctrl+ ← / →          — Enfocar en el grupo de editores anterior / siguiente
+Ctrl+Shift+PgUp / PgDn      — Mover editor a la izquierda / derecha
+Ctrl+K ← / →                — Mover el grupo de editores activo
+
+Depuración (Debug)
+F9                          — Alternar punto de interrupción (Breakpoint)
+F5                          — Iniciar / Continuar depuración
+Shift+F5                    — Detener depuración
+F11 / Shift+F11             — Paso a paso por instrucciones (Step into) / Salir de instrucciones (Step out)
+F10                         — Paso a paso por procedimientos (Step over)
+Ctrl+K Ctrl+I               — Mostrar información al pasar el ratón (Hover)
+
+Terminal Integrada (Integrated terminal)
+Ctrl+                       — Mostrar terminal integrada (Nota: En teclados en español suele mapearse a Ctrl+ñoCtrl+ )
+Ctrl+Shift+ `               — Crear nueva terminal
+Ctrl+C                      — Copiar selección
+Ctrl+V                      — Pegar en la terminal activa
+Ctrl+ ↑ / ↓                 — Desplazar hacia arriba / abajo (Scroll)
+Shift+PgUp / PgDn           — Desplazar página hacia arriba / abajo (Scroll)
+Ctrl+Home / End             — Desplazar al inicio / final de la terminal
+
